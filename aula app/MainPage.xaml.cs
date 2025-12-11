@@ -2,19 +2,15 @@
 {
     public partial class MainPage : ContentPage
     {
-
-
         public MainPage()
         {
             InitializeComponent();
         }
 
-       
-
         private void Button_Clicked(object sender, EventArgs e)
         {
-            String Email = CampoEmail.Text;
-            String Senha = CampoSenha.Text;
+            string Email = CampoEmail.Text;
+            string Senha = CampoSenha.Text;
 
             if (Email == "dedexcoding@gmail.com" && Senha == "123456")
             {
@@ -24,7 +20,6 @@
             {
                 DisplayAlert("Login", "Email ou senha incorretos.", "Tentar novamente");
             }
-
         }
     }
 }

@@ -7,6 +7,15 @@
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
+            
+            
+
+            <Label Text="Login"
+                   FontSize="40"
+                   />
+            
+            
+
 
 
             <Entry x:Name="CampoEmail" 
